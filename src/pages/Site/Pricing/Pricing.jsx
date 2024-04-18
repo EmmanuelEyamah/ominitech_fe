@@ -59,6 +59,13 @@ export const Pricing  = () => {
                   {price.label}
                 </Typography>
                 <Typography
+                  variant="small"
+                  color="white"
+                  className="font-normal uppercase"
+                >
+                  Starting from
+                </Typography>
+                <Typography
                   variant="h1"
                   color="white"
                   className="mt-6 flex justify-center gap-1 text-7xl font-normal"

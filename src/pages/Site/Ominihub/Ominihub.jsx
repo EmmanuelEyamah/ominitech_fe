@@ -71,7 +71,7 @@ export const OminiHub = () => {
                           } 
                         />
                     </div>
-                    <div className="w-full flex-col lg:flex lg:flex-row gap-5">
+                    <div className="w-full flex-col lg:flex lg:flex-row gap-5 mb-3">
                         <div className="w-full">
                             <Select 
                             label="Search Category...."
@@ -90,7 +90,7 @@ export const OminiHub = () => {
                                 <Option>Ui/ux Design</Option>
                             </Select>
                         </div>
-                        <div className="w-full">
+                        <div className="w-full mb-3">
                             <Select 
                                 label="Filter...."
                                 placeholder="Search...."
@@ -104,7 +104,7 @@ export const OminiHub = () => {
                                 <Option>Most Ordered</Option>
                             </Select>
                         </div>
-                        <div className="w-full">
+                        <div className="w-full mb-3">
                             <Select 
                                 label="Price...."
                                 placeholder="Search...."

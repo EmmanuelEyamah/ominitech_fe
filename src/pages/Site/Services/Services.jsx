@@ -13,7 +13,6 @@ import { services } from "./services";
 export const Services = () => {
   const [activeTab, setActiveTab] = useState("web");
 
-  // Filter images based on the active tab
   const activeImages = services.find((service) => service.value === activeTab)?.images;
 
  
